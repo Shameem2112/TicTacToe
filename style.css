@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image:url("https://images.unsplash.com/photo-1608111283021-bc3345c5ce51?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGljJTIwdGFjJTIwdG9lfGVufDB8fDB8fHww");
+    background-size: 100% 100%;
+    text-align: center;
+    color: #000;
+
+}
+#h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-color: #ffffff48;
+    width: 40vmin;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    background-color: #ffffff32;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.8) ;
+    font-size: 8vmin;
+    color: #000;
+}
+#reset-btn{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+}
+#new-btn{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+
+}
+#msg{
+    color: #000;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.hide{
+    display: none;
+}
+#msg{
+    background-color: #ffffff30;
+}
